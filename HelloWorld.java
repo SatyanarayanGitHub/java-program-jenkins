@@ -7,6 +7,9 @@ public class HelloWorld {
         System.out.println("Current Date : " + new Date());
         System.out.println("Adding one more line");
 
+        Student s = new Student();
+        s.sayHello("Rahul");
+
 
     }
 }
